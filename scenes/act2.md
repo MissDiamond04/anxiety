@@ -23,14 +23,15 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: Maar *zag* je dat nieuwsverhaal over die verschrikkelijke gebeurtenis ergens?
+   But did you *see* that "news story" about that horrible thing happening somewhere?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: h-hoi...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +39,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: Wow I haat het nieuws. Het is allemaal sentimenteel en clickbait.
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: l... leuk feestje...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +54,12 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
-
+s: Waar, maar zij volgen de stimulansen. Het *echte* probleem zijn de mensen die op het clickbait klikken. 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: Wie zou zo'n verschrikkelijk verhaal retweeten, en al hun vrienden slecht laten voelen? 
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ugh, ja exact!
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: Maar *zag* je dat nieuwsverhaal viraal gaan? 
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: h-hoi...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: Ja, zo nep. Wie zou er ooit in trappen en het retweeten? 
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: l... leuk feestje...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: Serieus gast. Echt hallo, open Google en kijk eerst effe of het waar is of niet. 
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ja, exact!
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: Zoals ik al zei, exploiteert het Meme Industrieel Complex katten.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: h-hoi...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: Ga hier eens verder op in?
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: l... leuk feestje...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,21 +157,19 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
-
+s: Nou, ik zag gister iemand die een GIF van een kat die melk drinkte retweete. 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
-
+s: Ze kunnen die ^shit^ niet opdrinken! Wie zou *dierenmisbruik* ooit retweeten? 
 ```
 publish("act2",["party_hunter",1]);
 publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ja, exact!
 
 (#act2-preamble-end)
 
@@ -182,14 +180,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: Dus ja ze hebben nooit meer terug gereageerd! 
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: h-hoi...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +195,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: Ook al matchte jullie beiden bij Tinder? 
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: l... leuk feestje...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,15 +227,14 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
-
+s: Ja ik weet niet! Wat, dachten ze dat ik een *seriemoordenaar* ofzo was? Zo paranoide.
 ```
 publish("act2",["party_hunter",1]);
 publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ja, echt hoor!
 
 (#act2-preamble-end)
 
@@ -249,9 +246,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: Ja ik weet niet! Misschien denken ze dat met iemand naar bed gaan het gat in hun hart niet kan vullen?
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: Wees niet zo vies! Open eerst je geest en open dan je benen!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +256,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ja, exact!
 
 (#act2-preamble-end)
 
@@ -271,7 +268,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: Ja ik weet niet! Ze waren niet zo knap, maar ze zouden een mooie vangst geweest zijn!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,7 +276,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: Moet ze allemaal vangen!
 
 (#act2-preamble-end)
 
@@ -300,27 +297,27 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: RONDE TWEE: *VECHT!*
 
-[Oh no they all hate us!](#act2a_social)
+[Oh nee ze haten ons allemaal!](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[Was je naar die roodharige aan het *staren?*](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[Hey, laten we over de zin van het leven praten.](#act2a_meaning)
 
 # act2a_social
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: We brengen de sfeer van het feest omlaag door zo'n trieste klomp te zijn!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: We doden de goede sfeer! We plegen eerstegraads uitstralings-moord!
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: Mens, we moeten *nu* weggaan voordat--
 
 ```
 _.a2_first_danger = 'social';
@@ -333,15 +330,14 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
-
+b: Zij zijn knapper dan ons, wat betekend dat als we ook maar *kijken* naar hun dat--
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: WE ENGERDS ZIJN
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: We zijn griezilig, kwade, slechte verschrikkelijke perv--
 
 ```
 _.a2_first_danger = 'perv';
@@ -354,31 +350,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: Aan het einde van alles, wat kunnen we nou doen wat nou echt iets uitmaakt? 
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: Bijdragen aan de mensheid? Al het grote werk bederft de weg van Ozymandias. Liefde? De dood zal het doen vergaan.
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: En hoeveel dood er is! *Wij* zullen doodgaan. *Onze geliefden* zullen doodgaan.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: Heck, de Tweede Wet van Thermodynamics zegt dat zelfs ons *universum* doodgaat! 
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: Oh, "de dood laat ons het leven waarderen"? Dan zeg je net zo goed dat slavernij oke is omdat het ons de vrijheid laat waarderen!
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: Oh, "je moet je eigen betekenis maken"? Dat is wat cultisten en  complot theoristen doen!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: Het leven heeft geen betekenis, de dood niet, zelfs betekenis heeft geen betekenis! Wat moet een sterfelijk ziel doen--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +391,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: Um... kan je me horen, mens?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -403,23 +399,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *OH*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: IK MOET JE WAARSCHUWEN TEGEN...
 
-[*More* of the same danger!](#act2b_louder)
+[*Meer* van hetzelfde gevaar!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[Een *ander* sociaal gevaar!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[Een *ander* moreel gevaar!](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[Je negeert gevaar! Dat is gevaarlijk!](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,13 +437,13 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: EMOTIES ZIJN BESMETTELIJK! ALS JE NIET VERLAAT BESMET JE STRAKS IEDEREEN MET JE MENTALE ZIEKTE!
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: Je creeërt een dodelijke uitbraak van ZIELIGE KLOMP SYNDROOM
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: We moeten hier weg en onszelf in quarantaine plaatsen in een kleine kamer met Netflix en bezorging van eten!
 
 ```
 _.a2_second_danger = 'netflix';
@@ -461,7 +457,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: WEES GEEN GRIEZEL. HET IS TEGEN DE WET!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -486,11 +482,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: Engerd Wet, Sectie 74.5: (1) Een persoon die naar (a) die gespierde schouders (2) dat kontje staart (2) zal hierbij genoemd worden als 
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: "EEN DIKKE WALGELIJKE AFVALS PERVERT"
 
 ```
 _.a2_second_danger = 'law';
@@ -504,23 +500,23 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: Maar, ook al vind je een nobele lot in je leven, kan je *nog steeds* alles verpesten!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: Alfred Nobel wou wereld vrede en culturen die elkaar begrepen. Dus hij besloot om het reizen makkelijker te maken. 
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: Dus hij moest een manier vinden om goedkoop trein tunnels te maken. Hij vond een nieuw materiaal uit, genaamd "dynamiet"..
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: wat gebruikt werd in de Eerste Wereldoorlog om MILJOENEN MENSEN TE DODEN 
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: HET IS HET VLINDEREFFECT, MENS! HOEVEEL MENSEN VERMOORD JE NU PER ONGELUK
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -536,19 +532,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: Hey, weet je wat erger is dan dat niemand je leuk vind? Dat *iedereen* je leuk vindt.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: Want dan wordt je een van *deze* plezierjachtende feestbeesten.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: Een oppervlakkig leven met oppervlakkige vrienden die alleen de oppervlakkige jij kennen!
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: Mens, we moeten wegrennen van deze plezier-zombies voordat wij een van hun worden! 
 
 ```
 _.a2_second_danger = 'zombies';
@@ -564,19 +560,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: Mensen gaan dood in hongersnoden en volkerenmoorden en *op dit moment* vieren wij gewoon feest! 
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: Een wijze persoon zei eens, "Het enige dat nodig is voor overwinning van het kwaad is dat goede mensen niks doen."
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: WIJ DOEN NIKS.
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: DOOR TE FEESTEN, HELPEN WIJ *HITLER*
 
 ```
 _.a2_second_danger = 'hitler';
@@ -592,15 +588,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: Denk je dat je veilig bent omdat je de batterijen uit de koolmonoxidedetector hebt gehaald?
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: Je kan het gif geen eens ruiken! Je wordt alleen slaperig en dan ga je-- 
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: DOOOOOOOOOOOOOOD
 
 ```
 _.a2_second_danger = 'ignore';
@@ -621,29 +617,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: Oh hey mens je kan me weer verstaan!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: IK ZAL JE WAARSCHUWEN VOOR...
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*Nog meer* van hetzelfde gevaar!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[*Meer* van hetzelfde gevaar!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[Een *ander* sociaal gevaar!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[Een *ander* moreel gevaar!](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[Heb je dat drankje gecheckt voordat je ging drinken?](#act2c_punch)
 
 #act2c_louder
 
@@ -675,15 +671,15 @@ b: I SHALL WARN YOU ABOUT...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: Eigenlijk is Netflix en bezorgd eten niet gequarantined genoeg! We zouden nog steeds de bezorger infecteren! 
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: We moeten naar de Canadeese Yukon gebieden verhuizen, en ons eten met een drone laten bezorgen! 
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: En dan zouden ze de drone moeten steriliseren om hem van onze ZIELIGE KLOMP ZIEKTEKIEMEN TE ONTDOEN
 
 `_.a2_attack_3 = "alone";`
 
@@ -716,13 +712,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: De GROTE AFSTOTENDE AFVALPERVER wordt veroordeeld tot 72 uur in een van die middeleeuwse vernederingstoestellen
 
-b: unless they're secretly *into* that sort of thing
+b: tenzij ze in het geheim die dingen leuk vinden
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: omdat ze een GROTE, VERSCHRIKKELIJKE AFVALPERVER zijn
 
 `_.a2_attack_3 = "bad";`
 
@@ -734,19 +730,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: VLINDER EFFECT! Gebruikt je een niet-biologisch afbreekbare plastic beker?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: BAM, EEN VUILNISBELT LEKT VERGIF EN DOOD EEN KIND
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: Je zweet en je hart klopt snel?
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: BAM, JE LAAT ONS GEZONDHEIDSZORGSYSTEEM FAILLIET GAAN EN MILJOENEN STERVEN
 
 `_.a2_attack_3 = "bad";`
 
@@ -758,7 +754,7 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: Deze plezierzombies strompelen naar je toe mompelend,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
@@ -766,7 +762,7 @@ b: LIIIIIKES. LIIIIIIIIIIKES.
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: Dan zullen ze je bijten en je veranderen in een HERSENLOZE BRO en / of HERSENLOZE MEID
 
 `_.a2_attack_3 = "bad";`
 
@@ -778,15 +774,15 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: DE NAZIS STAPPEN NU WEER TERUG OP DE STRAAT
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: Zeggend, * maar goed dat die 'goede mensen' verslaafd zijn met dingen als 'ontspanning' en 'zelfzorg'! *
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Now our plans can go fourth, reich on schedule!*
+b: * Nu kunnen onze plannen doorgaan, precies op schema! *
 
 `_.a2_attack_3 = "bad";`
 
@@ -798,15 +794,15 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: Nu ik erover nadenk, weten we wel of dit gebouw een monoxidedetector *heeft*?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: Wat als we allemaal vergiftigd worden *OP DIT MOMENT?*
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: WIJ ZULLEN DE DOOD NADERING ZELFS NIET ZIEN. WE ZULLEN ENKEL STOPPEN MET LEVEN EN VOOR ALTIJD EN ALTIJD EN ALTIJD--
 
 `_.a2_attack_3 = "harm";`
 
@@ -818,15 +814,15 @@ b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: Wat als we gewoon *fundamenteel niet in staat zijn* ooit geliefd te zijn of van een ander te houden?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: Wat als er lang geleden iets onomkeerbaars in ons is gebroken? Of in de eerste plaats nooit in ons heeft bestaan?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AHH WE ZIJN GEBROKEN! ZO GEBROKEN ZO GEBROKEN ZO GEBROKEN--
 
 `_.a2_attack_3 = "alone";`
 
@@ -836,19 +832,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: Wat als we gewoon *fundamenteel rot zijn?*
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: Anderen hebben een innerlijke drang om goedheid te doen, maar we doen alleen 'goed' uit schuld of schaamte, of helemaal niet.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: Wat als het in onze natuur zit om anderen pijn te doen? Wat als we niets anders kunnen zijn dan een last voor onze naasten?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AHH WE ZIJN GEBROKEN! ZO GEBROKEN ZO GEBROKEN ZO GEBROKEN--
 
 `_.a2_attack_3 = "bad";`
 
