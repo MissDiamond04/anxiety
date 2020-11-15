@@ -939,7 +939,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Chronic loneliness increases our cortisol levels as well as risk for cardiovascular disease and stroke!
+b: Chronische eenzaamheid verhoogt onze cortisolspiegel en verhoogt het risico op hart- en vaatziekten en beroertes!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -949,7 +949,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: VIJFTIEN. SIGARETTEN.
 {{/if}}
 
 ```
@@ -958,7 +958,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Shut up shut up ik verander mijn antwoord wel naar ja!
 
 (#act1f)
 
@@ -969,14 +969,14 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!
+b: Al onze problematische tweets zijn teruggekomen!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.7;
 ```
 
-b: We're gonna get called out and cancelled and dragged with a rope on horseback down the information superhighway!
+b: We worden gebeld en geannuleerd en met een touw te paard over de informatiesnelweg gesleept!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -991,7 +991,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Waarom ben je zo?!
 
 (#act1f)
 
@@ -1002,14 +1002,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!
+b: We verspreiden verkeerde informatie! We vernietigen het vertrouwen in een vrije pers!
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're the reason fascism will arise from the rubble of democracy!
+b: Wij zijn de reden dat het fascisme zal ontstaan uit het puin van de democratie!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1025,7 +1025,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!
+h: Waarom ben je zo?!
 
 (#act1f)
 
@@ -1036,13 +1036,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!
+b: Wil je een krakeling voor een ruggengraat hebben?! Stop met over je scherm te hangen!
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.
+b: En ik heb het ook tegen jou.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1058,35 +1058,35 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!
+h: Waarom ben je zo?!
 
 (#act1f)
 
 # act1e_said_ignore
 
-`hong({mouth:"sad", eyes:"sad"});`
+`hong({mouth:"sad", eyes:"sad"})
 
 h: Hm... that looks really fun.
 
-h: Maybe I shouldn't have ignored the invite?
+h: Misschien moest ik de uitnodiging niet negeren?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Blijf negeren, we zijn nog steeds feest verpesters.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Weet je wat, zeg ja.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Weet je wat, zeg nee.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: It's kinda rude to keep ignoring them though, no?
+h: Het is nogal onbeleefd om ze te blijven negeren, niet?
 
 `bb({eyes:"normal_right"});`
 
-b: Well other people always ignore *us*, so
+b: Tsja andere mensen negeren steeds *ons*, dus
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1097,7 +1097,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.
+b: dus nu staan we weer gelijk.
 
 (#act1f)
 
@@ -1105,9 +1105,9 @@ b: so let's just call it even.
 
 `hong({eyes:"surprise", mouth:"smile"});`
 
-h: You're... letting me have fun?
+h: Je... laat me plezier hebben?
 
-b: Well, I mean, loneliness *can* kill us.
+b: Nou ja, ik bedoel, eenzaamheid *kan* ons vermoorden.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1117,7 +1117,7 @@ b: Well, I mean, loneliness *can* kill us.
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.
+b: Het is te druk. Menigten zijn gevaarlijk.
 
 (#act1e_yes_changetono)
 
@@ -1129,60 +1129,60 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.
+h: Wat dan ook. Nieuwe Tinder notificatie.
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?
+b: Wat, die hookup app?
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--
+h: Het is geen hookup app, 't is gewoon een manier om nieuwe mense--
 
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.
+b: Het is een hookup app.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!
+h: Oh, ik heb een match! Die ziet er cute uit!
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--
+h: Verpest dit alsjeblieft niet voor m-- 
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: DANGER DANGER DANGER DANGER DANGER DANGER
+b: GEVAAR GEVAAR GEVAAR GEVAAR GEVAAR
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[We're being *used* by other people.](#act1f_used_by_others)
+[We worden *gebruikt* door andere mensen.](#act1f_used_by_others)
 
-[We're just *using* other people.](#act1f_using_others)
+[We *gebruiken* andere mensen.](#act1f_using_others)
 
-[YOUR MATCH IS A SERIAL KILLER](#act1f_killer)
+[JOUW MATCH IS EEN SERIEMOORDENAAR](#act1f_killer)
 
 # act1f_used_by_others
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,
+b: Willekeurige hookups kunnen het gat daar beneden misschien vullen,
 
-b: but they can never fill the hole...
+b: maar ze kunnen het gat nooit vullen...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: in *here*.
+b: *hierbinnen*.
 
 (...1000)
 
@@ -1191,7 +1191,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE
+b: Het punt is WE ZULLEN ALLEEN DOODGAAN
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1208,7 +1208,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: You think other people's genitals are Pokémon for us to collect?
+b: Denk je dat de geslachtsdelen van andere mensen Pokémons zijn die wij kunnen verzamelen?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1231,7 +1231,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ I wanna be, the ^slut^ti-est-
+b: ♫ Ik wil de ^slet^ter-igste zijn-
 
 (...500)
 
@@ -1240,7 +1240,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ Like no one ever was-
+b: ♫ Zoals niemand ooit geweest is-
 
 (...1500)
 
@@ -1249,7 +1249,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Thighs n' ^ass^, voluptuous breast-
+b: ♫ Dijen en ^ass^, wellustige borsten
 
 (...500)
 
@@ -1258,7 +1258,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ with sweaty ^dick^ and balls!-
+b: ♫ met zweterige ^dick^ en ballen!-
 
 (...1000)
 
@@ -1267,7 +1267,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVY-MON! GOTTA CA-
+b: ♫ PERVY-MON! MOET ZE ALLE-
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1277,7 +1277,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is we're a manipulative creep.
+b: Het punt is dat we een manipulatieve engerd zijn.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1295,19 +1295,19 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: They'll trap you in a well and force-feed you white bread to fatten you up so they can wear your skin like a suit!
+b: Ze sluiten je op in een put en voeren je witbrood om je vet te maken, zodat ze je huid als een pak kunnen dragen!
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"
+b: Ze zullen je afknallen met een pomodoro-timer en zeggen "JE MOET PRODUCTIEVER ZIJN JIJ PARASIET"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: They'll tear your flesh to gory confetti, turn your entrails into streamers, and mix your blood into a punch bowl!
+b: Ze scheuren je vlees tot bloederige confetti, veranderen je ingewanden in streamers en mengen je bloed in een punch bowl!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: How's THAT for a party invite?!
+b: Hoe is DAT voor een feestuitnodiging?!
 {{/if}}
 
 ```
@@ -1334,7 +1334,7 @@ h: ...
 
 (...500)
 
-h: i'm so sick of this game.
+h: ik wordt zo moe van dit spel.
 
 (...700)
 
@@ -1351,27 +1351,27 @@ h:
 {{if _.catmilk}}"cats can't digest milk"... {{/if}}
 {{if _.pokemon}}a ^crappy^ parody song... {{/if}}
 
-h: i just want to live my life.
+h: ik wil gewoon mijn leven leiden.
 
-h: i just want to be free from all this... pain.
+h: ik wil gewoon vrij zijn van al mijn pijn.
 
 `bb({eyes:"look_sad"});`
 
-b: Hey... human...
+b: Hey... mens...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: It'll be okay.
+b: Het komt wel weer goed.
 
 (...600)
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: As your loyal guard-wolf, I'll always keep an eye out for danger, and do my best to keep you safe.
+b: Als je trouwe waak-wolf zal ik altijd op gevaar letten en mijn best doen om je te beschermen.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
-b: I promise.
+b: Beloofd.
 
 (...600)
 
@@ -1380,29 +1380,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?
+h: Laatste app. Instagram. Wat heb jij te bieden?
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.
+h: Het zijn... meer feest foto's.
 
 `hong({mouth:"sad"});`
 
-h: Everyone looks so happy. Free from worry. Free from anxiety.
+h: Iedereen ziet er zo blij uit. Vrij van zorgen. Vrij van angst.
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*
+h: Waarom kan ik niet zijn zoals zij? Waarom kan ik niet gewoon *normaal* zijn? 
 
 `bb({eyes:"normal_right"});`
 
-b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
+b: Over feestjes gesproken, over die uitnodiging voor dit weekend. Hier is mijn LAATSTE beslissing:
 
 `bb({eyes:"normal"});`
 
-[We should go.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[We moeten gaan.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[We should not go.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[We moeten niet gaan.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1418,7 +1418,7 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: We moe--
 
 ```
 bb({eyes:"wat", mouth:"small"});
@@ -1429,7 +1429,7 @@ h: *^FUCK^.*
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: JOU.
 
 (...500)
 
@@ -1439,18 +1439,18 @@ b: w
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: wa?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: Ik ga JA zeggen tegen dat feest,
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: NIET omdat jij dat wilt, maar omdat *ik* dat wil.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: Juist OMDAT je dat niet wilt.
 {{/if}}
 
 ```
@@ -1458,14 +1458,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: Je hebt GEEN controle over mij.
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.
+h: Excuseer me nu terwijl ik deze heerlijke sandwich eet in ^godverdomme^ vrede.
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1503,11 +1503,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH WE GAAN DOOOOD](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH IEDEREEN GAAT ONS HATEN](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH WE ZIJN VERSCHRIKKELIJKE MENSEN](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1516,7 +1516,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: AHHHH WE GAAN DOOD AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1534,7 +1534,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: AHHHH IEDEREEN HAAT ONS AAAAHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1552,7 +1552,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: AHHH WE ZIJN VERSCHRIKKELIJKE MENSEN AAAHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1570,39 +1570,39 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: CONGRATULATIONS
+n: GEFELICITEERD
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: JE HEBT MET SUCCES DE FYSIEKE + SOCIALE + MORELE BEHOEFTEN VAN JE MENS BESCHERMD
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: KIJK EENS HOE DANKBAAR ZE IS!
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: NU HAAR ENERGIE NUL IS, KAN JE HAAR ACTIES DIRECT CONTROLEREN
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: KIES JE EIND MOVE
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *FINISH THEM*
+n: *MAAH HAAR AF*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{VECHT: Straf je stressvolle telefoon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{VLUCHT: Kruip in een bal en huil!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: Je telefoon gaf je een paniekaanval!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: Zuckerberg en Co kapen jouw geestelijke gezondheid voor geld!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1610,7 +1610,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
+b: Straf je telefoon! Vernietig het! Dood het!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1619,7 +1619,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HET DOOD HE-
 
 (#act1j)
 
@@ -1627,7 +1627,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: De hele wereld is gevuld met gevaar!
 
 ```
 bb({body:"fear"});
@@ -1635,7 +1635,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: Doe net zoals het gordeldier! Kruip in een bal voor zelfverdediging!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1644,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: KRUIP IN EEN BAL EN HUIL KRUIP IN EEN BAL EN HUIL KRUIP IN EEN BAL EN HUIL KRUIP I-
 
 (#act1j)
 
