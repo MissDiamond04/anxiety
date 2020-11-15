@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: EN DIT IS HAAR ANST
 
-n: _YOU_ ARE THE ANXIETY
+n: _JIJ_ BENT DE ANGST
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Oh hey! Zijn we hier weer?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: JE BAAN IS OM JOUW MENS TE BESCHERMEN TEGEN *GEVAAR* 
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: ERGER NOG, DEZE GAME OPNIEUW SPELEN BRENGT HAAR NU IN *GEVAAR*
 
-n: QUICK, WARN THEM!
+n: SNEL, WAARSCHUW HAAR!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Mens! Luister, we zijn in gevaar! De speler...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...gaat ons weer martelen!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...kan geen ander einde vinden!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...krijgt ludonarratieve dissonantie!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Laat ons in een bal kruipen en huilen! 
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Gaat je telefoon kapot laten maken omdat je een paniekaanval had!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Laat ons *NIET* de gastheer van het feest slaan! 
 {{/if}}
 
-{{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+{{if window.HACK_REPLAY.a2_ending=="flight
+b: Ze laten ons de sympathieke gastheer van het anti-schurkfeest slaan! 
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Nou misschien springen we deze keer niet van het dak-
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: ZE GAAN ONS VAN HET DAK LATEN SPRINGEN.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: AL DEZE NIEUWE VERSCHRIKKELIJKE DINGEN GAAN MET ONS GEBEUREN, EN DAN-- 
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Zeker, het verhaal als een *geheel* is hetzelfde, maar elk hoofdstuk heeft 2 verschillende eindes, plus al het-- 
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: De speler zal teleurgesteld zijn, sluit deze tab, delete onze software, en dan kunnen we--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Een lewd-wat zei je nou?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: De verhaallijn ging over hoe je kon *KIEZEN* om een gezonde samenwerking op te bouwen met je angst,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Maar het opnieuw spelen van het spel geeft hetzelfde verhaal, wat impliceert dat jouw *KEUZES* er niet toe doen,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Aldus een tegenstelling laten zien tussen de boodschap van het spel en de mechanica,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Aldus de structuur van dit verhalende universum ontrafelen,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: En dan zullen we--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: DOODGAAAAAAAAAN
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Oke laten we weer teruggaan naar het normaal
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (LAAT _JOUW_ ANGST BLAH BLAH MEEST VERGELIJKBAAR ZIJN MET WAT _JOUW_ ANGST BLAH BLAH JE SNAPT HET WEL)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Oh goed, mijn wolf is terug. Faaaantastisch.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: JE BAAN IS OM JOUW MENS TE BESCHERMEN TEGEN *GEVAAR* 
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: ERGER NOG, DAT BROODJE BRENGT HAAR NU IN *GEVAAR*
 
-n: QUICK, WARN THEM!
+n: SNEL, WAARSCHUW HAAR!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Mens! Luister, we zijn in gevaar! Het gevaar is...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (TIJD OM TE SPELEN! KIES WAT HET MEEST VERGELIJKBAAR IS MET WAT _JOUW_ ANGST JE VERTELT)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[We eten alleen voor de lunch! Alweer!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[We zijn niet productief tijdens het eten!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Dat witte brood is slecht voor ons!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Weet je niet dat eenzaamheid leidt tot vroegtijdige dood, en net zo erg is als 15 sigaretten per dag roken?
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Um, bedankt voor dat leuke feitje maar-- 
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Wat betekent als we niet *nu* met iemand anders chillen dat we--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: DOODGAAAAAAAAN!
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: JE GEBRUIKTE *ANGST OM ONGELIEFD TE ZIJN*
 
 (#act1b)
 
@@ -271,27 +271,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Pak je laptop en ga nu werken! 
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Um, ik wil liever geen kruimels op mijn keyboa--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Als we niet bijdragen aan het lichaam van de samenleving, zijn we een samenleving-parasiet!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: De samenleving-lichaam gaat naar de samenleving-arts voor medicatie om hun samenleving-parasieten te doden, dan gaan we--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: DOOOOOOOOOOOD
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: JE GEBRUIKTE *ANGST OM EEN SLECHTE PERSOON TE ZIJN*
 
 (#act1b)
 
@@ -315,18 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Zijn die onderzoeken herhaa--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
-
+b: Bewerkt tarwe zal onze bloedsuikerspiegel doen stijgen, dan moeten ze al onze ledematen amputeren en dan gaan we-
+   
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: DOOOOOOOOOOOOOOOOOD
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +339,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: JE GEBRUIKTE *ANGST OM GESCHAAD TE WORDEN*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: HET IS SUPER EFFECTIEF
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Zie je, mens? Ik ben je trouwe wachtwolf!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Vertrouw je gevoelens! Die zijn altijd geldig!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: MAAK DE ENERGIEBALK VAN UW MENS NUL
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: OM HUN FYSIEKE + SOCIALE + MORELE BEHOEFTEN TE BESCHERMEN, KAN JE GEBRUIKEN:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: ANGST OM *GESCHAAD TE WORDEN* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: ANGST OM *ONGELIEFD TE ZIJN* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: EN ANGST OM *EEN SLECHT PERSOON TE ZIJN* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (PRO-TIP: KIES DE KEUZES DIE PERSOONLIJK JE DIEPSTE, DONKERSTE ANGST RAKEN!~)
 
 h: ...
 
@@ -383,18 +383,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: weet je wat misschien moet ik even mijn phone checken. 
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: BESCHERM UW MENS
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: TEGEN MENSEN. TEGEN DE WERELD. TEGEN HAARZELF.
 
-n: GOOD LUCK
+n: VEEL SUCCES
 
 (...500)
 
@@ -408,38 +408,38 @@ n: GOOD LUCK
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: RONDE EEN: *VECHT!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.
+h: Huh. Facebook zegt dat er dit weekend een feestje is.
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?
+b: Gooit die rare gast niet *elk* weekend een feestje? 
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!
+b: Welke innerlijke leegte proberen ze te vullen? Ze moeten diep in de war zijn van binnen!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?
+h: En, ik heb een uitnodiging?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
-b: Well then!
+b: Nou dan!
 
-[Say yes, or we'll die from loneliness!](#act1c_loner)
+[Zeg ja, anders gaan we dood aan eenzaamheid!](#act1c_loner)
 
-[Say no, it's full of poisonous drugs!](#act1c_drugs)
+[Zeg nee, het is vol met giftige drugs!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.](#act1c_sad)
+[Negeer het, we verpesten feestjes toch.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Fifteen cigarettes a day, human! Fifteen!
+b: Vijftien sigaretten per dag, mens! Vijftien!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -447,11 +447,11 @@ b: Fifteen cigarettes a day, human! Fifteen!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Then no one will show up at our funeral, they'll dump our ashes into the ocean, we get eaten by a whale,
+b: Dan komt er niemand op onze begrafenis, ze zullen onze as in de oceaan dumpen, we worden opgegeten door een walvis,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: and we become WHALE POOP!
+b: en dan worden we WALVISPOEP!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}
@@ -468,25 +468,25 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!
+b: Dus laten we naar het feestje gaan!
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.
+b: Maar breng de laptop mee zodat we kunnen werken, en geen parasiet in de samenleving worden.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD
+b: Zolang ze maar geen WIT BROOD serveren
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: OKE. Als het je laat zwijgen, prima.
 
-h: I'll say yes.
+h: Ik ga ja zeggen.
 
 {{if _.whalepoop}}
-b: Whale poop, human! Whale poop!
+b: Walvispoep, mens. Walvis poep.
 {{/if}}
 
 `_.partyinvite="yes"`
@@ -498,7 +498,7 @@ b: Whale poop, human! Whale poop!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: or even worse... WHITE BREAD
+b: of nog slechter... WIT BROOD
 {{/if}}
 
 {{if _.whitebread}}
@@ -506,11 +506,11 @@ b: or even worse... WHITE BREAD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!
+b: We zullen op zoveel meth en wit brood overdoseren dat ze ons dikke lijk niet in de crematieovens kunnen stoppen!
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!
+b: We zullen aan zoveel drugs overdoseren dat de begrafenisondernemer zal afvragen hoe ons lichaam *al* voorgebalsemd was!
 {{/if}}
 
 ```
@@ -521,14 +521,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!
+b: Trouwens, we kunnen niet feesten, we moeten werken of we zijn een vreselijke samenleving-parasiet!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.
+h: OKE. Als het je laat zwijgen, prima.
 
-h: I'll say no.
+h: Ik zeg wel nee.
 
 `_.partyinvite="no"`
 
@@ -541,15 +541,15 @@ h: I'll say no.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.
+b: Het enige wat we doen is in een hoek huilen over hoe eenzaamheid net zo dodelijk is als 15 sigaretten per dag.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.
+b: Het enige wat we op feestjes doen is ons zorgen maken over hoe we eigenlijk productief zouden moeten zijn.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.
+b: Het enige dat we doen is ons zorgen maken over hoe de ongezonde voedselopties ons zullen doden.
 {{/if}}
 
 ```
@@ -557,19 +557,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.
+h: wauw vraag me af waarom.
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!
+b: Dus als we gaan zullen we ze een slecht gevoel geven, maar als we niet gaan, zullen we ze ook een slecht gevoel geven!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD
+b: ALLES WAT WIJ DOEN IS MENSEN ZICH ROT LATEN VOELEN, DUS MOETEN WIJ ONS OOK ZO VOELEN
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,9 +580,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.
+h: Ugh. Als het je laat zwijgen, prima.
 
-h: I'll ignore the invite.
+h: Ik negeer de uitnodiging.
 
 `_.partyinvite="ignore"`
 
@@ -595,19 +595,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.
+h: Nou ja. Facebook is te veel. Ik heb iets rustigers nodig, dat minder angst veroorzaakt.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?
+h: Wat is nieuw op Twitter?
 
 `bb({eyes:"look"});`
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[Oh nee, kijk naar dat erge nieuwsbericht!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Oh nee, gaat die tweet stiekem over *ons?*](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Hey, een GIF van een kat die melk drinkt](#act1d_milk)
 
 
 # act1d_news
@@ -617,14 +617,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: God, it feels like the world's burning, isn't it?
+b: Wow, lijkt net of de planeet brandt, nietwaar?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.
+b: Het voelt alsof het allemaal eindigt, alsof alles aan het sterven is en wij kunnen er niets aan doen.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -635,7 +635,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!
+b: Laten we dat verhaal retweeten!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -653,11 +653,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okay I'll retweet it just please be quiet!
+h: Oke ik retweet het wel maar wees dan stil!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.
+h: Laat maar, laten we naar Snapchat gaan.
 
 (#act1e)
 
@@ -666,35 +666,35 @@ h: Screw it, let's look at Snapchat.
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!
+b: Het is een subtweet! Een stiekeme, stiekeme subtweet!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: Nee dat is het niet?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but what if they're all talking behind our back
+b: maar wat als ze allemaal achter onze rug praten?
 
-h: They're n--
+h: Ze zijn nie--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
-b: IN FRONT OF OUR BACK
+b: VOOR ONZE RUG
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--
+h: Ik de--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
-b: but *what if*
+b: maar *wat als*
 
-h: S--
+h: N--
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: *what if*
+b: *wat als*
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -719,7 +719,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: o-KAY, ik ga nu naar Snapchat.
 
 (#act1e)
 
@@ -727,7 +727,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--
+h: Heh ja dat is schattig, net geretweet, ik d--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: KATTEN KUNNEN MELK NIET VERTEREN EN WIJ ZIJN VRESELIJKE MENSEN OMDAT WE GENIETEN VAN DIERENMISHANDELING
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -752,7 +752,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KAY, gonna try Snapchat.
+h: o-KAY, ik ga nu naar Snapchat.
 
 (#act1e)
 
@@ -760,7 +760,7 @@ h: o-KAY, gonna try Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.
+h: Huh, foto's van gisteravond. Dus *dat* is hoe die wekelijkse feestjes zijn.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -772,29 +772,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.
+h: Oof, ziet er veel te druk uit voor mijn angst.
 
-h: Maybe I shouldn't have said yes to the invite?
+h: Misschien had ik geen ja moeten zeggen tegen de uitnodiging?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!](#act1e_yes_dontchange)
+[Ons antwoord wijzigen? Als een eikel ?!](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!](#act1e_yes_changetono)
+[Verander ons antwoord! Het is te druk!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.](#act1e_ignore_subtweet)
+[Ja, ze waren ons sowieso aan het subtweeten.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.](#act1e_ignore_factcheck)
+[Wacht, we hebben geretweet zonder de feiten te controleren.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?](#act1e_ignore_posture)
+[Weet je dat je echt een slechte houding hebt?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
